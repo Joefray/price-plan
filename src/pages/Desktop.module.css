@@ -1,0 +1,123 @@
+.monthly {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 100px;
+}
+.monthlyYearly {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-6) 14px 0 0;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blue);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.feature,
+.frameChild,
+.rectangleParent {
+  border-radius: var(--br-17xl);
+}
+.feature {
+  position: absolute;
+  top: 3.3px;
+  left: 43.6px;
+  background-color: var(--color-white);
+  width: 42.5px;
+  height: 42.5px;
+  z-index: 1;
+}
+.rectangleParent {
+  height: 49.1px;
+  width: 87.9px;
+  position: relative;
+  background-color: var(--color-blue);
+}
+.yearly {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 76px;
+}
+.monthlyYearly1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-6) 0 0;
+}
+.features,
+.pricingOptions,
+.pricingOptionsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.pricingOptions {
+  justify-content: flex-start;
+  gap: 24.2px;
+}
+.features,
+.pricingOptionsWrapper {
+  justify-content: center;
+}
+.pricingOptionsWrapper {
+  width: 1171.6px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.features {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 33.8px;
+}
+.desktop1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 54.1px 127px 97.5px;
+  box-sizing: border-box;
+  gap: 76.6px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .desktop1 {
+    gap: 38px;
+    padding-left: var(--padding-44xl);
+    padding-right: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .features {
+    gap: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .desktop1 {
+    gap: 19px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,368 @@
+.featureRowOneChild {
+  width: 372.6px;
+  height: 746.7px;
+  position: relative;
+  border-radius: var(--br-20xl);
+  background: linear-gradient(98.26deg, #1400ff, #6a5eff);
+  display: none;
+  max-width: 100%;
+}
+.basic {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 76px;
+  z-index: 1;
+}
+.featureRowFive {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-22xl);
+}
+.ikeaFinanceLoans {
+  position: relative;
+  font-size: var(--font-size-34xl-6);
+  white-space: nowrap;
+  z-index: 1;
+}
+.featureRowFour,
+.featureRowThree {
+  display: flex;
+  align-items: flex-start;
+}
+.featureRowFour {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-15xl-7);
+}
+.featureRowThree {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-21xl);
+}
+.iconlyboldtickSquare {
+  width: 19.8px;
+  height: 19.8px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.featureIconsThree {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-1) 0 0;
+}
+.imageGenerations {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.featureIconsTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-4);
+}
+.iconlyboldtickSquare1 {
+  width: 19.8px;
+  height: 19.8px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.creditIconsThree {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-1) 0 0;
+}
+.credits {
+  position: relative;
+  display: inline-block;
+  min-width: 111px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.creditIconsTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-4);
+}
+.iconlyboldtickSquare2 {
+  width: 19.8px;
+  height: 19.8px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.supportIconsTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-1) 0 0;
+}
+.monthly100Credits {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.creditIconsOne,
+.supportIconsOne {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-4);
+}
+.creditIconsOne {
+  flex-direction: column;
+  gap: var(--gap-9xl-3);
+}
+.iconlyboldtickSquare3 {
+  width: 19.8px;
+  height: 19.8px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.serverIconsTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-1) 0 0;
+}
+.customerSupport {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.serverIconsOne {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-4);
+}
+.iconlyboldtickSquare4 {
+  width: 19.8px;
+  height: 19.8px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.priorityIconsTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-1) 0 0;
+}
+.dedicatedServer {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.priorityIconsOne {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-4);
+}
+.iconlyboldtickSquare5 {
+  width: 19.8px;
+  height: 19.8px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.storageIconsTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-1) 0 0;
+}
+.priorityGenerations {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.storageIconsOne {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-4);
+}
+.iconlyboldtickSquare6 {
+  width: 19.8px;
+  height: 19.8px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-1) 0 0;
+}
+.gbCloudStorage {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.buttonRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-4);
+}
+.featureIconsOne,
+.featureRowTwo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.featureIconsOne {
+  height: 337.8px;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-33xl-3);
+  box-sizing: border-box;
+  gap: var(--gap-9xl-3);
+  font-size: var(--font-size-xl);
+}
+.featureRowTwo {
+  align-items: flex-end;
+  gap: var(--gap-24xl-5);
+}
+.frameChild {
+  height: 59.3px;
+  width: 216.5px;
+  position: relative;
+  box-shadow: 0 16px 40px rgba(62, 58, 58, 0.2);
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  display: none;
+}
+.getStarted {
+  position: relative;
+  display: inline-block;
+  min-width: 111px;
+  z-index: 2;
+}
+.featureRowOneInner,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleParent {
+  box-shadow: 0 16px 40px rgba(62, 58, 58, 0.2);
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  justify-content: flex-start;
+  padding: var(--padding-mid-7) var(--padding-33xl) var(--padding-mid-6);
+  white-space: nowrap;
+  z-index: 1;
+}
+.featureRowOneInner {
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+}
+.featureRowOne {
+  flex: 1;
+  border-radius: var(--br-20xl);
+  background: linear-gradient(98.26deg, #1400ff, #6a5eff);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-29xl-9) var(--padding-48xl) var(--padding-21xl-9)
+    var(--padding-14xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl-6);
+  min-width: 280px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .basic {
+    font-size: var(--font-size-5xl);
+  }
+  .ikeaFinanceLoans {
+    font-size: var(--font-size-24xl);
+  }
+  .featureRowOne {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .basic {
+    font-size: var(--font-size-lg);
+  }
+  .ikeaFinanceLoans {
+    font-size: var(--font-size-13xl);
+  }
+  .credits,
+  .customerSupport,
+  .dedicatedServer,
+  .gbCloudStorage,
+  .imageGenerations,
+  .monthly100Credits,
+  .priorityGenerations {
+    font-size: var(--font-size-base);
+  }
+  .featureIconsOne {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .featureRowTwo {
+    gap: var(--gap-3xl);
+  }
+  .featureRowOne {
+    gap: var(--gap-21xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
